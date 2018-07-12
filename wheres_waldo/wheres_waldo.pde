@@ -16,9 +16,11 @@ println("waldo found");
 }
    
       if( mousePressed && mouseX == 1280 && mouseY == 93  ){
-        playWoohoo
+        playWoohoo();
       }
-      
+      else{
+        playDoh();
+      }
       
       // 8. If Waldo is found, also use the method below to play “Woohoo”
       // Change the name of the sound file if you need to 
